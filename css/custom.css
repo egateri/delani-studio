@@ -11,13 +11,18 @@ h1 {
 }
 
 #welcome {
+
+    padding:100px;
     background-image: url('../assets/backgrounds/h_img.jpg');
     /* height: 100%; */
-    /* width: 100%;*/
+    width: 100%;
     height: 1000px; 
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: no-repeat, repeat;
+   
     background-position: center; /* Center the image */
+    
+
+   
 }
 
 #service {
