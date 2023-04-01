@@ -1,9 +1,10 @@
 
 $(document).ready(() =>{
+    
 
 $("p").mouseenter(event => {
-        // $("p").text("mouseenter event has occurred");
+       // $("p").text("mouseenter event has occurred");
 
-        console.log(" Mouse has entered!");
+         console.log(" Mouse has entered!");
     });
 });
