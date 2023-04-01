@@ -1,45 +1,12 @@
-/* * {
+* {
     box-sizing: border-box;
 }
 
 body {
     background-color: white;
-} */
+}
 
 h1, h3, p, h5 {
     text-align: center;
 }
 
-#welcome {
-
-    padding:100px;
-    background-image: url('../assets/backgrounds/h_img.jpg');
-    /* height: 100%; */
-    width: 100%;
-    height: 1000px; 
-    background-repeat: no-repeat, repeat;
-   
-    background-position: center; /* Center the image */
-    
-
-   
-}
-
-#service {
-    background-image: url('../assets/backgrounds/s_image.jpg');
-    /* height: 100%; */
-    height: 1000px; 
-    background-repeat: no-repeat;
- 
-}
-#contact {
-    background-image: url('../assets/backgrounds/c_image.jpg');
-    /* height: 100%; */
-    height: 1000px; 
-    background-repeat: no-repeat;
-   
-}
-
-marquee {
-    color:red;
-}
