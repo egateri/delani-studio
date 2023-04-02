@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>toggle demo</title>
+  <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+</head>
+<body>
+ 
+
+<!-- <p>Hello</p>
+<p style="display: none">Good Bye</p> -->
+<div>
+<div style="display: none" class="test">
+    <h1>Hello</h1>
+    <h1>Friends</h1>
+</div>
+<div  class="test">
+    <h1>Good Bye</h1>
+    <h1>Enemy</h1>
+</div>
+</div>
+<script>
+$(".test").click(() => {
+  $(".test").toggle();
+});
+</script>
+ 
+</body>
+</html>

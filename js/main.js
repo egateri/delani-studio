@@ -14,8 +14,20 @@ $("#myform").submit(event => {
          console.log(message);
         alert(`**  ${name} we have received your message. Thank you for reaching out to us. **`);
         $("#test").text(`**  ${name} we have received your message. Thank you for reaching out to us. **`);
+        document.getElementById("myform").reset();
+       
     });
 
+    $(".designDiv").click(() => {
+      $(".designDiv").toggle();
+    });
+    $(".developmentDiv").click(() => {
+      $(".developmentDiv").toggle();
+    });
+    $(".productManagementDiv").click(() => {
+      $(".productManagementDiv").toggle();
+    });
+// - To remove below:
     $("#div1-2").click(() => {
       $("#h1-1").text(`Design`);
       $("#p1-1").text(`Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
@@ -30,6 +42,7 @@ $("#myform").submit(event => {
       $("#div1-2").show();
     });
 
+   
     $("#div2-2").click(() => {
       $("#h1-2").text(`Development`);
       $("#p1-2").text(`All engineers are fluent in the latest enterprise, mobile and web development technologies.
