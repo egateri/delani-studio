@@ -20,13 +20,20 @@
     <link rel="stylesheet" href="css/custom.css" />
   </head>
   <body>
-    <div class="container-fluid">
-      <h3>WELCOME</h3>
-      <h3>TO DELANI STUDIO</h3>
-      <h5>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</h5>
+    <div class="container-fluid" id = "div1">
 
-      <img src="assets/backgrounds/h_img.jpg" class="img-fluid" alt="..." />
+     <img src="assets/backgrounds/h_img.jpg" class="img-fluid" alt="..." />
+
+     <div id = "card1">
+        <img src="assets/logo/logo.png" alt="">
+        <h3 >WELCOME</h3> 
+        <h3>TO DELANI STUDIO</h3>
+        <h5>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT
+     </div>
+      
     </div>
+
+   
     <br />
     <br />
     <div class="container">
@@ -48,21 +55,25 @@
     </div>
     <br />
     <br />
-    <div class="container-fluid">
+    <div class="container-fluid" id = "div2">
       <img src="assets/backgrounds/s_image.jpg" class="img-fluid" alt="..." />
-      <h3>SERVICES</h3>
-      <p>
-        Before we sign a contract or write a line of code our team will spend
-        the necessary time needed to understand your product vision.
-      </p>
-      <p>
-        The outcome of this scoping session is a proposal or high-level
-        statement of work.
-      </p>
-      <p>
-        Based on your requirements, we can provide a complete offering or just
-        the pieces you need.
-      </p>
+
+      <div id = "card2">
+        <h3>SERVICES</h3>
+        <p>
+          Before we sign a contract or write a line of code our team will spend
+          the necessary time needed to understand your product vision.
+        </p>
+        <p>
+          The outcome of this scoping session is a proposal or high-level
+          statement of work.
+        </p>
+        <p>
+          Based on your requirements, we can provide a complete offering or just
+          the pieces you need.
+        </p>
+      </div>
+      
     </div>
     <br />
     <br />
@@ -131,9 +142,28 @@
     </div>
     <br />
     <br />
-    <div class="container-fluid">
-      <h3>CONTACT US</h3>
-      <img src="assets/backgrounds/c_image.jpg" class="img-fluid" alt="..." />
+    <div class="container-fluid" id = "div3">
+        <img src="assets/backgrounds/c_image.jpg" class="img-fluid" alt="..." />
+      <div id = "card3">
+        <h3>CONTACT US</h3>
+<form id ="myform">
+<label for="name">Name..</label>
+<input type="text" name ="name" id = "name" placeholder ="Name.." required>
+<label for="email">Email ..</label>
+<input type="email" name ="email" id ="email" placeholder ="Email .." required>
+
+<br/>
+<br/>
+<label for="comment">Your Message here...</label><br/>
+<textarea rows="5" cols="60" name="comment" form="myform" placeholder="Your Message here..." required>
+</textarea>
+<br/>
+<br/>
+<input type="submit">
+</form>
+      </div>
+      
+      
     </div>
     <br />
     <br />
@@ -190,7 +220,7 @@
         </div>
         <div class="col">
           <img
-            src="assets/social_iconS/pinterest.png"
+            src="assets/social_icons/pinterest.png"
             class="img-fluid"
             alt="..."
           />
