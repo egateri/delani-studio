@@ -28,6 +28,7 @@ h1, h3, p, h5 {
   #div2 {
     position: relative;
     height: 100%;
+    overflow: hidden;
   }
   
   #card2 {
@@ -37,6 +38,7 @@ h1, h3, p, h5 {
     height: 100%;
     text-align: center;
     color:white;
+    
   }
 
   #div3 {
