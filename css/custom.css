@@ -12,14 +12,10 @@ h2,
 h3,
 h4,
 h5
-h6 {
+{
   text-align: center;
 }
 
-#div1 {
-  position: relative;
-  height: 100%;
-}
 
 #card1 {
   position: absolute;
@@ -43,11 +39,6 @@ h6 {
   height: 100%;
   text-align: center;
   color: white;
-}
-
-#div3 {
-  position: relative;
-  height: 100%;
 }
 
 #card3 {
@@ -117,20 +108,32 @@ textarea {
   }
 }
 
-/* testing  */
-
-.projectOneDiv,.projectTwoDiv, .projectThreeDiv,.projectFourDiv,.projectFiveDiv,.projectSixDiv,.projectSevenDiv,.projectEightDiv {
+#div1,
+#div3,
+.projectOneDiv,
+.projectTwoDiv,
+.projectThreeDiv,
+.projectFourDiv,
+.projectFiveDiv,
+.projectSixDiv,
+.projectSevenDiv,
+.projectEightDiv {
   position: relative;
   height: 100%;
 }
 
-.projectOneName,.projectTwoName, .projectThreeName,.projectFourName,.projectFiveName,.projectSixName,.projectSevenName,.projectEightName {
+.projectOneName,
+.projectTwoName,
+.projectThreeName,
+.projectFourName,
+.projectFiveName,
+.projectSixName,
+.projectSevenName,
+.projectEightName {
   position: absolute;
-  top: 10%;
+  top: 30%;
   width: 100%;
   height: 100%;
   text-align: center;
   color: black;
 }
-
-
