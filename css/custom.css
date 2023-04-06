@@ -13,10 +13,10 @@ body {
   background-repeat: no-repeat;
   color: white;
   text-align: center;
-  padding-top: 15%;
-  padding-right: 5%;
+  padding-top: 10%;
+  padding-right: 0px;
   padding-bottom: 10%;
-  padding-left: 5%;
+  padding-left: 0px;
   
 }
 .services{
@@ -26,10 +26,10 @@ body {
   background-repeat: no-repeat;
   color: white;
   text-align: center;
-  padding-top: 15%;
-  padding-right: 5%;
-  padding-bottom: 15%;
-  padding-left: 5%;
+  padding-top: 3%;
+  padding-right: 0px;
+  padding-bottom: 3%;
+  padding-left: 0px;
 
 }
 
@@ -40,10 +40,10 @@ body {
   background-repeat: no-repeat;
   color: white;
   text-align: center;
-  padding-top: 13%;
-  padding-right: 5%;
-  padding-bottom: 12%;
-  padding-left: 5%;
+  padding-top: 8%;
+  padding-right: 0px;
+  padding-bottom: 8%;
+  padding-left: 0px;
  
 }
 p,
