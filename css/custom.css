@@ -13,11 +13,17 @@ body {
   background-repeat: no-repeat;
   color: white;
   text-align: center;
-  padding-top: 15%;
+  padding-top: 10%;
   padding-right: 5%;
-  padding-bottom: 10%;
+  padding-bottom: 5%;
   padding-left: 5%;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
+}
+.header img{
+  margin-top: 3%;
+}
+ h6, p {
+  font-size:small;
 }
 
 .services {
@@ -61,6 +67,7 @@ h6,
 .productManagementDiv
 {
   text-align: center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
 }
 
 input {
@@ -69,6 +76,7 @@ input {
   border-color: white;
   color: white !important;
   font-weight: bolder;
+  
 }
 
 textarea {
@@ -86,15 +94,18 @@ textarea {
 input[type=text]::-webkit-input-placeholder
 { 
   color: white; 
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
 }
 textarea::-webkit-input-placeholder
 { 
-  color: white; 
+  color:white;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
 }
 
 input[type=email]::-webkit-input-placeholder
 { 
   color: white; 
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
 }
 
 input[type=text] {

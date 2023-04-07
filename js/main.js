@@ -10,7 +10,7 @@ $(document).ready(() => {
     console.log(name);
     console.log(email);
     console.log(message);
-    alert( `**  ${name} we have received your message. Thank you for reaching out to us. **`);
+    alert( `${name} we have received your message. Thank you for reaching out to us.`);
     document.getElementById("myform").reset();
   });
 
@@ -28,7 +28,7 @@ $(document).ready(() => {
   // Hover in Portfolio Section
   $(".projectOneDiv").hover(() => {
     $(".projectOneName").css("display", "block");
-    $(".projectOneDiv").css("opacity", 0.4);
+    $(".projectOneDiv").css("opacity", 0.8);
     }, ()=> {
     $(".projectOneName").css("display", "none");
     $(".projectOneDiv").css("opacity", 1);
@@ -36,7 +36,7 @@ $(document).ready(() => {
 
   $(".projectTwoDiv").hover(() => {
     $(".projectTwoName").css("display", "block");
-    $(".projectTwoDiv").css("opacity", 0.4);
+    $(".projectTwoDiv").css("opacity", 0.8);
     }, ()=> {
     $(".projectTwoName").css("display", "none");
     $(".projectTwoDiv").css("opacity", 1);
@@ -68,7 +68,7 @@ $(document).ready(() => {
 
   $(".projectSixDiv").hover(() => {
     $(".projectSixName").css("display", "block");
-    $(".projectSixDiv").css("opacity", 0.4);
+    $(".projectSixDiv").css("opacity", 0.8);
     }, ()=> {
     $(".projectSixName").css("display", "none");
     $(".projectSixDiv").css("opacity", 1);
@@ -76,7 +76,7 @@ $(document).ready(() => {
 
   $(".projectSevenDiv").hover(() => {
     $(".projectSevenName").css("display", "block");
-    $(".projectSevenDiv").css("opacity", 0.4);
+    $(".projectSevenDiv").css("opacity", 0.8);
     }, ()=> {
     $(".projectSevenName").css("display", "none");
     $(".projectSevenDiv").css("opacity", 1);
@@ -84,54 +84,9 @@ $(document).ready(() => {
 
   $(".projectEightDiv").hover(() => {
     $(".projectEightName").css("display", "block");
-    $(".projectEightDiv").css("opacity", 0.4);
+    $(".projectEightDiv").css("opacity", 0.8);
     }, ()=> {
     $(".projectEightName").css("display", "none");
     $(".projectEightDiv").css("opacity", 1);
-  });
-
-
-
-  // - To remove below, No Long Relevant
-  $("#div1-2").click(() => {
-    $("#h1-1").text(`Design`);
-    $("#p1-1")
-      .text(`Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
-      Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.`);
-    $("#div1-1").show();
-    $("#div1-2").hide();
-  });
-
-  $("#div1-1").click(() => {
-    $("#div1-1").hide();
-    $("#div1-2").show();
-  });
-
-  $("#div2-2").click(() => {
-    $("#h1-2").text(`Development`);
-    $("#p1-2")
-      .text(`All engineers are fluent in the latest enterprise, mobile and web development technologies.
-      They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.`);
-    $("#div2-1").show();
-    $("#div2-2").hide();
-  });
-
-  $("#div2-1").click(() => {
-    $("#div2-1").hide();
-    $("#div2-2").show();
-  });
-
-  $("#div3-2").click(() => {
-    $("#h1-3").text(`Product Management`);
-    $("#p1-3")
-      .text(`Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. 
-      This iterative process allows for changes as business requirements evolve.`);
-    $("#div3-1").show();
-    $("#div3-2").hide();
-  });
-
-  $("#div3-1").click(() => {
-    $("#div3-1").hide();
-    $("#div3-2").show();
   });
 });
