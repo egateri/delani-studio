@@ -89,6 +89,7 @@ textarea {
   width: 80%;
   margin-left: 10%;
   margin-right: 10%;
+  border-radius: 4px;
 }
 
 input[type=text]::-webkit-input-placeholder
@@ -113,6 +114,7 @@ input[type=text] {
   height:30px;
   margin-left: 10%;
   float: left;
+  border-radius: 3px;
 }
 
 input[type=email] {
@@ -120,12 +122,14 @@ input[type=email] {
   height:30px;
   float: right;
   margin-right: 10%;
+  border-radius: 3px;
 }
 
 input[type=submit]{
   float: left;
   margin-left: 10%;
   height:35px;
+  border-radius: 3px;
 }
 
 form {
@@ -153,7 +157,7 @@ form {
 .projectSevenName,
 .projectEightName {
   position: absolute;
-  top: 15%;
+  top: 30%;
   width: 100%;
   height: 100%;
   text-align: center;
@@ -177,9 +181,15 @@ form {
   textarea{
     height:120px;
   }
+  h5 {
+    font-size: x-small;
+  }
 }
 @media screen and (max-width: 400px) {
   textarea{
     height:80px;
+  }
+  h5 {
+    font-size: xx-small;
   }
 }
