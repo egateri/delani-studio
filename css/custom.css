@@ -175,6 +175,9 @@ form {
   textarea{
     height:150px;
   } 
+  h5 {
+    font-size: small;
+  }
 }
 
 @media screen and (max-width: 576px) {
