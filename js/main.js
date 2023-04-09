@@ -13,8 +13,10 @@ $(document).ready(() => {
     console.log(name);
     console.log(email);
     console.log(message);
-    alert(`${name}, we have received your message. Thank you for reaching out to us.`);
-     /* Reset the Form to clear Input fields */
+    alert(
+      `${name}, we have received your message. Thank you for reaching out to us.`
+    );
+    /* Reset the Form to clear Input fields */
     document.getElementById("myform").reset();
   });
 });
